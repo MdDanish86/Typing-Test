@@ -1,0 +1,135 @@
+.typing-wrapper {
+  min-height: 100vh;
+  background: #f0f4f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.typing-container {
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+      margin-left: 488px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.setup p {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.button-group button {
+  padding: 0.5rem 1rem;
+  border: 2px solid #333;
+  background: #2d2929;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s, color 0.3s;
+}
+
+.button-group .selected {
+  background-color: #333;
+  color: white;
+}
+
+.start-btn {
+  padding: 0.7rem 1.5rem;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.info-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.paragraph {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  min-height: 60px;
+  line-height: 1.5;
+}
+
+.correct-word {
+  color: green;
+  font-weight: 600;
+}
+
+.incorrect-word {
+  color: red;
+  font-weight: 600;
+}
+
+.input-box {
+  width: 100%;
+  height: 80px;
+  font-size: 1.1rem;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  resize: none;
+  font-family: monospace;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.results {
+  text-align: center;
+}
+
+.restart-btn {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  /* Match with your wrapper */
+  height: 100%;
+  width: 100%;
+  font-family: "Segoe UI", sans-serif;
+}
